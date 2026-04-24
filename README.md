@@ -7,13 +7,13 @@ A small Express service for local development and container workflows.
 ## Build the image
 
 ```bash
-docker build -t broken-nodejs-app .
+docker build -t sample-nodejs-app .
 ```
 
 ## Run the container
 
 ```bash
-docker run --rm broken-nodejs-app
+docker run --rm sample-nodejs-app
 ```
 
 Pass through any environment variables your deployment needs as usual (for example with `-e` or `--env-file`).
