@@ -33,7 +33,7 @@ app.get("/debug", (req, res) => {
 });
 
 const server = app.listen(PORT, BIND_HOST, () => {
-  console.log(`[startup] server listening on http://${BIND_HOST}:${PORT}`);
+  console.log(`[startup] server listening on http://localhost:${PORT}`);
 });
 
 server.on("error", (err) => {
